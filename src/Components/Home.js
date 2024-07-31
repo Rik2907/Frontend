@@ -66,7 +66,7 @@ function Home() {
          e.preventDefault();
          await handleClick(token,user_id,game);
       }
-      console.log(process.env.REACT_APP_API_URL);
+      
     return (
         <div className="my-10 px-4 text-center sm:my-16">
         <p className="mx-auto py-4">
